@@ -1,0 +1,17 @@
+body{
+    margin: 0%;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 100vh;
+}
+
+.dashboard{
+    background-color: #1992D4;
+}
+
+.body-container{
+    background-color: #E2E8F0;
+}
