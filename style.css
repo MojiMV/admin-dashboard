@@ -167,6 +167,7 @@ body{
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     padding: 40px;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .searchbar-container{
@@ -220,3 +221,52 @@ body{
     place-items: center;
 }
 
+.second-profile-picture{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-container .second-row{
+    display: grid;
+    grid-template-columns: max-content max-content;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.second-row .first-part{
+    display: grid;
+    grid-template-columns: max-content max-content;
+    align-items: center;
+    gap: 20px;
+}
+
+.second-row .second-part{
+    display: grid;
+    grid-template-columns: max-content max-content max-content;
+    gap: 20px;
+    align-items: center;
+}
+
+.second-row .second-part > button{
+    background-color: var(--blue-color);
+    color: white;
+    font-weight: bold;
+    border: none;
+    height: 35px;
+    padding: 0px 35px;
+    border-radius: 25px;
+}
+
+.hello-txt{
+    font-weight: bold;
+    font-weight: 16px;
+    margin-bottom: 5px;
+}
+
+.welcome-name{
+    font-weight: bold;
+    font-size: 22px;
+}
