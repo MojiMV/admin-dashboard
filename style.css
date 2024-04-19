@@ -270,3 +270,18 @@ body{
     font-weight: bold;
     font-size: 22px;
 }
+
+.main-body{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.projects{
+    display: grid;
+    grid-template: max-content 1fr 1fr 1fr / 1fr 1fr;
+}
+
+.projects-title{
+    font-weight: bold;
+    font-size: 18px;
+}
