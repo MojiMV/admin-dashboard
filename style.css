@@ -309,11 +309,15 @@ a{
     grid-template-columns: 8px 1fr;
     background-color: white;
     border-radius: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .yellow-div{
     background-color: var(--yellow-color);
     border-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0px;
 }
 
 .project-content{
