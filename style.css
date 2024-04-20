@@ -1,3 +1,5 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+
 :root {
     --blue-color: #1992D4;
     --gray-color: #E2E8F0;
@@ -7,7 +9,7 @@
 
 body{
     margin: 0%;
-    font-family: "Roboto";
+    font-family: sans-serif;
 }
 
 a{
