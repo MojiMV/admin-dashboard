@@ -1,6 +1,8 @@
 :root {
     --blue-color: #1992D4;
     --gray-color: #E2E8F0;
+    --yellow-color: #F0B429;
+    --bio-color: #636363;
   }
 
 body{
@@ -274,14 +276,68 @@ body{
 .main-body{
     display: grid;
     grid-template-columns: 4fr 1fr;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    overflow: auto;
 }
 
 .projects{
     display: grid;
     grid-template: max-content 1fr 1fr 1fr / 1fr 1fr;
+    gap: 20px;
 }
 
-.projects-title{
+.projects-title-text{
     font-weight: bold;
     font-size: 18px;
+}
+
+.project-item{
+    display: grid;
+    grid-template-columns: 8px 1fr;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.yellow-div{
+    background-color: var(--yellow-color);
+    border-radius: 20px;
+}
+
+.project-content{
+    display: grid;
+    grid-template-rows: 1fr max-content;
+    padding: 30px 15px;
+}
+
+.project-title{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.project-explanation{
+    color: var(--bio-color);
+}
+
+.project-buttons{
+    display: grid;
+    grid-template-columns: max-content max-content max-content;
+    justify-content: right;
+    gap: 30px;
+    padding-right: 20px;
+}
+
+button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    outline: none; /* Remove default focus outline */
+}
+
+div > svg{
+    width: 24px;
+    height: 24px;
+    fill: black;
 }
