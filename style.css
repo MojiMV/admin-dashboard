@@ -277,9 +277,11 @@ body{
     display: grid;
     grid-template-columns: 4fr 1fr;
     padding-top: 20px;
+    padding-right: 20px;
     padding-left: 20px;
     padding-bottom: 40px;
     overflow: auto;
+    gap: 20px;
 }
 
 .projects{
@@ -333,11 +335,47 @@ button {
     background: none;
     padding: 0;
     cursor: pointer;
-    outline: none; /* Remove default focus outline */
 }
 
 div > svg{
     width: 24px;
     height: 24px;
     fill: black;
+}
+
+.annoncements-trending-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.announcements-container{
+    display: grid;
+    grid-template-rows: max-content 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.announcements-content-container{
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.announcements-title-text{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.announcement-title{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.announcements{
+    column-width: 370px;
+}
+
+.announce-description{
+    color: var(--bio-color);
+    font-size: 14px;
+    column-width: 370px;
 }
